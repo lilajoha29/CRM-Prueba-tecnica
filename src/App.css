@@ -2,37 +2,58 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.titulo{
+  color:black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.tabla{
+  display: block ruby;
+  padding: auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.cabecera{
   color: white;
+  background-color: black;
+  padding: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+.contenido{
+  color: black;
+  background-color: beige;
+  /* padding: 5px; */
+  padding-left: 25px;
+  padding-right: 25px;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button{
+  color: white;
+  background-color: brown;
+  margin: 20px;
+  padding: 10px;
+  font-size: medium;
+}
+
+button:disabled{
+  background-color:rosybrown;
+}
+
+.filtro{
+  padding: 5px;
+}
+
+.fecha{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.fechasFiltrada{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.nombreFiltrado{
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
